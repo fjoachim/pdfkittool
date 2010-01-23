@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PDFKitTool' target in the 'PDFKitTool' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

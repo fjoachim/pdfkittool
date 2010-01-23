@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* PDFKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* PDFKitTool.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* PDFKitTool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* PDFKitTool.1 */; };
+		AA817597110A8327004D82A1 /* CommandLineDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = AA817596110A8327004D82A1 /* CommandLineDriver.m */; };
+		AA8175C3110A90F0004D82A1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8175C2110A90F0004D82A1 /* Quartz.framework */; };
+		AAA48C52110B0C3D00604555 /* PDFDocumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */; };
+		AAA48C6E110B164200604555 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48C6D110B164200604555 /* Action.m */; };
+		AAA48C7D110B17ED00604555 /* LoadAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48C7C110B17ED00604555 /* LoadAction.m */; };
+		AAA48D57110B54E600604555 /* CatAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48D56110B54E600604555 /* CatAction.m */; };
+		AAA48DD9110B6D0800604555 /* OutputAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48DD8110B6D0800604555 /* OutputAction.m */; };
+		AAA48EBB110BAF6800604555 /* BurstAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA48EBA110BAF6800604555 /* BurstAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* PDFKitTool.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* PDFKitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFKitTool.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* PDFKitTool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFKitTool_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* PDFKitTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PDFKitTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA817595110A8327004D82A1 /* CommandLineDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineDriver.h; sourceTree = "<group>"; };
+		AA817596110A8327004D82A1 /* CommandLineDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineDriver.m; sourceTree = "<group>"; };
+		AA8175C2110A90F0004D82A1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocumentManager.h; sourceTree = "<group>"; };
+		AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentManager.m; sourceTree = "<group>"; };
+		AAA48C6C110B164200604555 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		AAA48C6D110B164200604555 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		AAA48C7B110B17ED00604555 /* LoadAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAction.h; sourceTree = "<group>"; };
+		AAA48C7C110B17ED00604555 /* LoadAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAction.m; sourceTree = "<group>"; };
+		AAA48D55110B54E600604555 /* CatAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatAction.h; sourceTree = "<group>"; };
+		AAA48D56110B54E600604555 /* CatAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatAction.m; sourceTree = "<group>"; };
+		AAA48DD7110B6D0800604555 /* OutputAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputAction.h; sourceTree = "<group>"; };
+		AAA48DD8110B6D0800604555 /* OutputAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputAction.m; sourceTree = "<group>"; };
+		AAA48EB9110BAF6800604555 /* BurstAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurstAction.h; sourceTree = "<group>"; };
+		AAA48EBA110BAF6800604555 /* BurstAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurstAction.m; sourceTree = "<group>"; };
+		C6859EA3029092ED04C91782 /* PDFKitTool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PDFKitTool.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				AA8175C3110A90F0004D82A1 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* PDFKitTool */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = PDFKitTool;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* PDFKitTool_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* PDFKitTool.m */,
+				AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */,
+				AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */,
+				AA817595110A8327004D82A1 /* CommandLineDriver.h */,
+				AA817596110A8327004D82A1 /* CommandLineDriver.m */,
+				AAA48C6B110B160800604555 /* Actions */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+				AA8175C2110A90F0004D82A1 /* Quartz.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* PDFKitTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA48C6B110B160800604555 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				AAA48C6C110B164200604555 /* Action.h */,
+				AAA48C6D110B164200604555 /* Action.m */,
+				AAA48C7B110B17ED00604555 /* LoadAction.h */,
+				AAA48C7C110B17ED00604555 /* LoadAction.m */,
+				AAA48EB9110BAF6800604555 /* BurstAction.h */,
+				AAA48EBA110BAF6800604555 /* BurstAction.m */,
+				AAA48D55110B54E600604555 /* CatAction.h */,
+				AAA48D56110B54E600604555 /* CatAction.m */,
+				AAA48DD7110B6D0800604555 /* OutputAction.h */,
+				AAA48DD8110B6D0800604555 /* OutputAction.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* PDFKitTool.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* PDFKitTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PDFKitTool" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFKitTool;
+			productInstallPath = "$(HOME)/bin";
+			productName = PDFKitTool;
+			productReference = 8DD76FA10486AA7600D96B5E /* PDFKitTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Joachim Fornallaz";
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PDFKitTool" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* PDFKitTool */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* PDFKitTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* PDFKitTool.m in Sources */,
+				AA817597110A8327004D82A1 /* CommandLineDriver.m in Sources */,
+				AAA48C52110B0C3D00604555 /* PDFDocumentManager.m in Sources */,
+				AAA48C6E110B164200604555 /* Action.m in Sources */,
+				AAA48C7D110B17ED00604555 /* LoadAction.m in Sources */,
+				AAA48D57110B54E600604555 /* CatAction.m in Sources */,
+				AAA48DD9110B6D0800604555 /* OutputAction.m in Sources */,
+				AAA48EBB110BAF6800604555 /* BurstAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFKitTool_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PDFKitTool;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFKitTool_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PDFKitTool;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PDFKitTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PDFKitTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
