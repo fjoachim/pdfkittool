@@ -22,7 +22,7 @@ in /usr/local/bin or ~/bin - make sure the file is executable.
 
 Usage
 
-PDFKitTool is a command line tool which is invoked in following form:
+PDFKitTool is a command line tool which is invoked like this:
 
     ./PDFKitTool action parameters [action parameters]
 
@@ -34,6 +34,7 @@ The supported actions are:
 load
     Loads a PDF document from a path on disk. 
     Expects one parameter: The file path.
+    As a shortcut, you can omit the 'load' action and just provide a file path.
 
 cat
     Combines all loaded documents into one.
@@ -55,6 +56,11 @@ Combining multiple documents and storing the result to disk:
 
     ./PDFKitTool load one.pdf load two.pdf cat output combined.pdf
     
+Alternative notation (pdftk-compatible):
+
+    ./PDFKitTool one.pdf two.pdf cat output combined.pdf
+
+
 Bursting a multipage document into multiple single-paged documents:
 
     ./PDFKitTool load multipage.pdf burst output bursted.pdf
