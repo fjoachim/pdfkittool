@@ -44,28 +44,6 @@
 	return [[[PDFDocumentManager alloc] init] autorelease];
 }
 
-+ (void)burst:(NSString *)fileName
-{
-	NSString *path = [[NSFileManager defaultManager] currentDirectoryPath];
-	NSString *filePath = [path stringByAppendingPathComponent:fileName];
-	NSURL *fileURL = [NSURL fileURLWithPath:filePath];
-	NSLog(@"fileURL: %@", fileURL);
-	
-	PDFDocument *document = [[PDFDocument alloc] initWithURL:fileURL];
-	PDFPage *page = [document pageAtIndex:0];
-	NSLog(@"document: %@", document);
-	
-	PDFDocument *newDocument = [[PDFDocument alloc] init];
-	[newDocument insertPage:[page copy] atIndex:0];
-	NSLog(@"newDocument: %@", newDocument);
-	
-	NSString *extension = [fileName pathExtension];
-	NSString *fileBase = [fileName stringByDeletingPathExtension];
-	NSString *pageFile = [[fileBase stringByAppendingFormat:@"_%.3d", 1] stringByAppendingPathExtension:extension];
-	[newDocument writeToFile:pageFile];
-	NSLog(@"pageFile: %@", pageFile);
-}
-
 #pragma mark NSObject overwritten methods
 
 - (id)init
