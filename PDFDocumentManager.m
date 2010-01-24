@@ -117,18 +117,20 @@
 	NSArray *originalDocuments = [NSArray arrayWithArray:inputDocuments];
 	NSUInteger documentIndex = 0;
 	for (PDFDocument *document in originalDocuments) {
-		documentIndex++;
-		while ([document pageCount] > 1) {
-			PDFPage *page = [[document pageAtIndex:1] copy];
-			PDFDocument *pageDocument = [[PDFDocument alloc] init];
-			[pageDocument insertPage:page atIndex:0];
-			[inputDocuments insertObject:pageDocument atIndex:documentIndex++];
-		//	[pageDocument release];
-		//	[page release];
-			[document removePageAtIndex:1];
+		NSUInteger pageCount = [document pageCount];
+		for (NSUInteger i = 0; i < pageCount; i++) {
+			documentIndex++;
+			while ([document pageCount] > 1) {
+				PDFPage *page = [[document pageAtIndex:1] copy];
+				PDFDocument *pageDocument = [[PDFDocument alloc] init];
+				[pageDocument insertPage:page atIndex:0];
+				[inputDocuments insertObject:pageDocument atIndex:documentIndex++];
+				[pageDocument release];
+				[page release];
+				[document removePageAtIndex:1];
+			}
 		}
 	}
-	NSLog(@"inputDocuments: %@", inputDocuments);
 	return YES;
 }
 
