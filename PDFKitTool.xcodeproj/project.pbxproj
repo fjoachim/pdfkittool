@@ -39,21 +39,21 @@
 		32A70AAB03705E1F00C91783 /* PDFKitTool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFKitTool_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* PDFKitTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PDFKitTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA34BAAC110C6A6F002FE232 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
-		AA817595110A8327004D82A1 /* CommandLineDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineDriver.h; sourceTree = "<group>"; };
-		AA817596110A8327004D82A1 /* CommandLineDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineDriver.m; sourceTree = "<group>"; };
+		AA817595110A8327004D82A1 /* CommandLineDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandLineDriver.h; path = Classes/CommandLineDriver.h; sourceTree = "<group>"; };
+		AA817596110A8327004D82A1 /* CommandLineDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandLineDriver.m; path = Classes/CommandLineDriver.m; sourceTree = "<group>"; };
 		AA8175C2110A90F0004D82A1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocumentManager.h; sourceTree = "<group>"; };
-		AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentManager.m; sourceTree = "<group>"; };
-		AAA48C6C110B164200604555 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
-		AAA48C6D110B164200604555 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
-		AAA48C7B110B17ED00604555 /* LoadAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAction.h; sourceTree = "<group>"; };
-		AAA48C7C110B17ED00604555 /* LoadAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAction.m; sourceTree = "<group>"; };
-		AAA48D55110B54E600604555 /* CatAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatAction.h; sourceTree = "<group>"; };
-		AAA48D56110B54E600604555 /* CatAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatAction.m; sourceTree = "<group>"; };
-		AAA48DD7110B6D0800604555 /* OutputAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputAction.h; sourceTree = "<group>"; };
-		AAA48DD8110B6D0800604555 /* OutputAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputAction.m; sourceTree = "<group>"; };
-		AAA48EB9110BAF6800604555 /* BurstAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurstAction.h; sourceTree = "<group>"; };
-		AAA48EBA110BAF6800604555 /* BurstAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurstAction.m; sourceTree = "<group>"; };
+		AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFDocumentManager.h; path = Classes/PDFDocumentManager.h; sourceTree = "<group>"; };
+		AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFDocumentManager.m; path = Classes/PDFDocumentManager.m; sourceTree = "<group>"; };
+		AAA48C6C110B164200604555 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Action.h; path = Classes/Action.h; sourceTree = "<group>"; };
+		AAA48C6D110B164200604555 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Action.m; path = Classes/Action.m; sourceTree = "<group>"; };
+		AAA48C7B110B17ED00604555 /* LoadAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadAction.h; path = Classes/LoadAction.h; sourceTree = "<group>"; };
+		AAA48C7C110B17ED00604555 /* LoadAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadAction.m; path = Classes/LoadAction.m; sourceTree = "<group>"; };
+		AAA48D55110B54E600604555 /* CatAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CatAction.h; path = Classes/CatAction.h; sourceTree = "<group>"; };
+		AAA48D56110B54E600604555 /* CatAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CatAction.m; path = Classes/CatAction.m; sourceTree = "<group>"; };
+		AAA48DD7110B6D0800604555 /* OutputAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutputAction.h; path = Classes/OutputAction.h; sourceTree = "<group>"; };
+		AAA48DD8110B6D0800604555 /* OutputAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OutputAction.m; path = Classes/OutputAction.m; sourceTree = "<group>"; };
+		AAA48EB9110BAF6800604555 /* BurstAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurstAction.h; path = Classes/BurstAction.h; sourceTree = "<group>"; };
+		AAA48EBA110BAF6800604555 /* BurstAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurstAction.m; path = Classes/BurstAction.m; sourceTree = "<group>"; };
 		C6859EA3029092ED04C91782 /* PDFKitTool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PDFKitTool.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +73,7 @@
 		08FB7794FE84155DC02AAC07 /* PDFKitTool */ = {
 			isa = PBXGroup;
 			children = (
+				AA34BAD0110C7820002FE232 /* Classes */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
@@ -86,12 +87,7 @@
 			children = (
 				32A70AAB03705E1F00C91783 /* PDFKitTool_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* PDFKitTool.m */,
-				AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */,
-				AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */,
-				AA817595110A8327004D82A1 /* CommandLineDriver.h */,
-				AA817596110A8327004D82A1 /* CommandLineDriver.m */,
 				AA34BAAC110C6A6F002FE232 /* Version.h */,
-				AAA48C6B110B160800604555 /* Actions */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -111,6 +107,18 @@
 				8DD76FA10486AA7600D96B5E /* PDFKitTool */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA34BAD0110C7820002FE232 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAA48C50110B0C3D00604555 /* PDFDocumentManager.h */,
+				AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */,
+				AA817595110A8327004D82A1 /* CommandLineDriver.h */,
+				AA817596110A8327004D82A1 /* CommandLineDriver.m */,
+				AAA48C6B110B160800604555 /* Actions */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		AAA48C6B110B160800604555 /* Actions */ = {
