@@ -38,6 +38,7 @@
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* PDFKitTool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFKitTool_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* PDFKitTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PDFKitTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34BAAC110C6A6F002FE232 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
 		AA817595110A8327004D82A1 /* CommandLineDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineDriver.h; sourceTree = "<group>"; };
 		AA817596110A8327004D82A1 /* CommandLineDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineDriver.m; sourceTree = "<group>"; };
 		AA8175C2110A90F0004D82A1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
@@ -89,6 +90,7 @@
 				AAA48C51110B0C3D00604555 /* PDFDocumentManager.m */,
 				AA817595110A8327004D82A1 /* CommandLineDriver.h */,
 				AA817596110A8327004D82A1 /* CommandLineDriver.m */,
+				AA34BAAC110C6A6F002FE232 /* Version.h */,
 				AAA48C6B110B160800604555 /* Actions */,
 			);
 			name = Source;

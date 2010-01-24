@@ -10,6 +10,7 @@
 //
 
 #import "CommandLineDriver.h"
+#import "Version.h"
 #import "Action.h"
 #import "LoadAction.h"
 #import "PDFDocumentManager.h"
@@ -59,7 +60,8 @@
 	NSUInteger count = [arguments count];
 		
 	if (count < 1) {
-		fprintf(stderr, "Usage: PDFKitTool action key parameters [action key parameters ...]\n");
+		fprintf(stderr, "PDFKitTool %s - a command interface end to Apple’s PDF Kit framework.\n", VERSION);
+		fprintf(stderr, "Usage: PDFKitTool action parameters [action parameters ...]\n");
 		fprintf(stderr, "See http://github.com/fjoachim/pdfkittool for details.\n");
 		return 1;
 	}
